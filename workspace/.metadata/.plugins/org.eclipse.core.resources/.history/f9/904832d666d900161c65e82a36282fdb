@@ -1,0 +1,32 @@
+package petStore;
+
+
+public class PetStore {
+	
+	public static void main(String[] args){
+		
+		DogList dLi = new DogList();
+		Dog d = new Dog();
+		dLi.add(d);
+	
+		
+		
+		AnimalList aListObject = new AnimalList();
+		Dog d1 = new Dog();
+		Dog d2 = new Dog();
+		Fish f1 = new Fish();
+		Fish f2 = new Fish();
+		aListObject.add(d1);
+		aListObject.add(d2);
+		aListObject.add(f1);
+		aListObject.add(f2);
+
+		
+		
+		
+		
+		
+		
+	}
+
+}

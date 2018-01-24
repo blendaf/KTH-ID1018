@@ -1,0 +1,14 @@
+package petStore;
+
+public class Animal {
+	
+	public String toString(){
+		
+		return "bblalab";
+		
+		
+	}
+	
+	
+
+}

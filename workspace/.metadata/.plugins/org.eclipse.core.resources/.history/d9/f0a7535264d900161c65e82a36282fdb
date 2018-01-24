@@ -1,0 +1,16 @@
+package petStore;
+
+
+public class PetStore {
+	
+	public static void main(String[] args){
+		
+		DogList dLi = new DogList;
+		Dog d = new Dog;
+		dLi.add(d);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package petStore;
+
+public class Dog extends Animal {
+
+	private String dogType;
+	
+	public Dog(String s){
+		
+		this.dogType = s;
+		
+	}
+	
+	
+	
+	public  String toString(){
+		
+		return this.dogType;
+		
+		
+	}
+}

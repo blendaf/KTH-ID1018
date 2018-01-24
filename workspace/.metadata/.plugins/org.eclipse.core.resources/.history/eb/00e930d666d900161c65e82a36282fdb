@@ -1,0 +1,29 @@
+package petStore;
+
+public class AnimalList {
+
+	private Animal[] aList = new Animal[8];
+	private int index = 0;
+	
+	public void add(Animal a){
+		
+		if (index < aList.length)
+		{
+			aList[index] = a;
+			System.out.println("An animal is added at index:  " + index );
+			index++;
+		}
+		
+		else{
+			System.out.println("The list is already full!");
+		}
+	}
+	
+	
+	public int len(){
+		
+		return this.index;
+		
+	}
+	
+}

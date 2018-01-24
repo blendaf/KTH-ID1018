@@ -1,0 +1,26 @@
+package apples;
+
+public class Tuna {
+
+	
+private String name;
+private Potpie birthday;
+
+
+public Tuna(String name, Potpie date)
+{
+this.name = name;
+this.birthday = date;
+
+}
+
+public String toString(){
+	
+	String s = "Your name is: " + this.name + "Your birthday is; " + this.birthday;
+	return s;
+	
+}
+
+
+
+}

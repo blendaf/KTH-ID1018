@@ -1,0 +1,5 @@
+package partables;
+
+public interface Partable {
+
+}
